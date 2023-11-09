@@ -1,0 +1,25 @@
+header {
+    background-image: url(../images/bgPet.jpg);
+    background-size: cover;
+    height: 75vh;
+}
+
+.bg-brand{
+    background-color: rgb(109, 109, 92);
+    
+}
+
+.nav-link{
+    color: rgb(180, 180, 3);
+}
+
+.navbar-brand{
+    color: blanchedalmond;
+}
+
+#servicesHeader{
+    background-image: url(../images/dogWithHat.jpg);
+}
+#galleryHeader{
+    background-image: url(../images/dog_softFocus.jpg);
+}

@@ -1,0 +1,102 @@
+/*put all fonts here*/
+
+  @import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+
+
+/*These are the default styles*/
+body{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(65,5,9,1) 35%, rgba(3,10,57,1) 100%);
+    /*change font*/
+    font-family: 'Play', sans-serif;   
+ color: rgb(255, 255, 255);
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+
+
+h1,h2{
+  font-family: 'Play', sans-serif;
+    text-align: center;
+}
+
+/*******************header*************************/
+header{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(65,5,9,1) 35%, rgba(3,10,57,1) 100%);
+    
+    text-align: center;
+    
+    padding: 30px;
+    
+   
+
+}
+
+
+
+
+
+
+/***************navigation bar***************/
+
+
+nav ul {
+list-style-type: none;
+margin: 0;
+
+padding: 0;
+overflow: hidden;
+background-color: #000000;
+
+/*fixed nv*/
+position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+ nav li {
+    float: left;
+  }
+  
+  nav a{
+
+display: block;
+padding: 20px;
+text-decoration: none;
+color: white;
+text-align: center;
+  }
+        
+
+nav a:hover{
+  background-color: rgb(19, 26, 125)
+}
+  
+
+
+/*************section****************/
+section{
+    background-color: #000000;
+
+width: 60vw;
+
+
+margin:0 auto;
+
+padding: 20px;
+
+font-family: 'Play', sans-serif;
+
+
+}
+
+

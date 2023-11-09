@@ -1,0 +1,88 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Urbanist&family=Yatra+One&display=swap');
+
+  ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #70797d;
+    font-family: 'Urbanist',sans-serif;
+  }
+  
+  ul.topnav li {float: left;}
+  
+  ul.topnav li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Urbanist', sans-serif;
+    }
+    nav a:hover{
+        background-color: rgba(230, 213, 213, 0.314)
+      }
+  
+  ul.topnav li a:hover:not(.active) {background-color: #111; color: antiquewhite;}
+  
+  ul.topnav li a.active {background-color: burlywood;}
+  
+  ul.topnav li.right {float: right;}
+  
+  @media screen and (max-width: 600px) {
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+  }
+
+
+#masthead{
+    
+     background-color: transparent;
+    
+    font-family: 'Yatra One', sans-serif;
+    color: rgb(33, 33, 33);
+    text-align: center;
+}
+
+#portfolio{
+    text-align: center;
+    background-color: transparent;
+}
+
+#about{
+    font-family: 'Urbanist', sans-serif;
+    text-align: justify;
+    color: antiquewhite;
+    background-color: #504a3d;
+    width: 80vw;
+    margin: 1% auto;
+    
+    padding: 10px;
+    opacity: 0.8;
+    
+}
+
+body{
+    background-image: url(../images/cover.JPG);
+    background-position: top;
+}
+
+#footer{
+    text-align: left;
+    font-family: 'Urbanist' ,sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    
+}
+p{
+  text-align: center;
+}
+a{
+  color: antiquewhite;
+  
+}
+a:hover {
+  color: rgb(192, 152, 33);
+}
